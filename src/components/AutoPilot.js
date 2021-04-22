@@ -5,11 +5,6 @@ import {toggleAutoPilot} from "../redux/actions";
 import {getAutoPilotState} from "../redux/selectors";
 
 class AutoPilot extends React.Component {
-	constructor(props)
-	{
-		super(props);
-	}
-
 	render()
 	{
 		let buttonClasses = classNames({

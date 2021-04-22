@@ -1,8 +1,6 @@
 import SceneManager from './SceneManager';
 import store from "../redux/store";
 import {Scope} from './Globals';
-import {getCamera} from "../redux/selectors";
-
 
 export default container => {
 	Scope.canvas = createCanvas(document, container);

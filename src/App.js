@@ -1,7 +1,7 @@
 // React
 import React, {Component} from 'react';
 // Redux
-import {connect, Provider} from 'react-redux'
+import {Provider} from 'react-redux'
 import store from "./redux/store";
 // Helpers
 import classNames from "classnames";

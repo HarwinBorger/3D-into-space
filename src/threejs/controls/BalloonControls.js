@@ -62,7 +62,7 @@ var BalloonControls = function ( object, domElement ) {
 
 			case 81: /*Q*/ this.moveState.rollLeft = 1; break;
 			case 69: /*E*/ this.moveState.rollRight = 1; break;
-
+			default:break;
 		}
 
 		this.updateMovementVector();
@@ -93,7 +93,7 @@ var BalloonControls = function ( object, domElement ) {
 
 			case 81: /*Q*/ this.moveState.rollLeft = 0; break;
 			case 69: /*E*/ this.moveState.rollRight = 0; break;
-
+			default:break;
 		}
 
 		this.updateMovementVector();
@@ -122,7 +122,7 @@ var BalloonControls = function ( object, domElement ) {
 
 				case 0: this.moveState.forward = 1; break;
 				case 2: this.moveState.back = 1; break;
-
+				default:break;
 			}
 
 			this.updateMovementVector();
@@ -166,7 +166,7 @@ var BalloonControls = function ( object, domElement ) {
 
 				case 0: this.moveState.forward = 0; break;
 				case 2: this.moveState.back = 0; break;
-
+				default: break;
 			}
 
 			this.updateMovementVector();
@@ -219,7 +219,7 @@ var BalloonControls = function ( object, domElement ) {
 
 	this.getContainerDimensions = function () {
 
-		if ( this.domElement != document ) {
+		if ( this.domElement !== document ) {
 
 			return {
 				size: [ this.domElement.offsetWidth, this.domElement.offsetHeight ],

@@ -13,7 +13,7 @@ import {BalloonControls} from "./controls/BalloonControls"
 //import { DeviceOrientationControls } from 'three/examples/jsm/controls/DeviceOrientationControls.js';
 
 // Helpers
-import Axes from './helpers/Axes';
+//import Axes from './helpers/Axes';
 
 // Internal models
 import SolarSystem from './SolarSystem';
@@ -113,7 +113,7 @@ export default class sceneManager {
 	setupLoadingManager()
 	{
 		/* Setup this.scene objects */
-		this.loadingManager = new THREE.LoadingManager;
+		this.loadingManager = new THREE.LoadingManager();
 
 		this.loadingManager.onLoad = () => {
 			console.log('Loading complete!');

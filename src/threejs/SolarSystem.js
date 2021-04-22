@@ -1,5 +1,3 @@
-import React from "react";
-
 import * as THREE from 'three';
 import store from "../redux/store";
 import {toggleAutoPilot} from "../redux/actions";
@@ -14,7 +12,7 @@ import World from './World';
 import Planet from './Planet';
 import Ufo from './Ufo';
 import SoundSun from './sounds/sun.mp3';
-import {ColladaLoader} from "three/examples/jsm/loaders/ColladaLoader";
+//import {ColladaLoader} from "three/examples/jsm/loaders/ColladaLoader";
 import LaserParticles from "./LaserParticles";
 
 export default class SolarSystem {

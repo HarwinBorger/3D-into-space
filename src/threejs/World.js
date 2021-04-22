@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import {Scope, Objects} from './Globals';
 
 //Calcs
-import {getRandomRange, getRandomInt, loop, manipulateIcosahedron} from "./Services";
+import {getRandomRange, getRandomInt,  manipulateIcosahedron} from "./Services";
 
 // Internal models
 import Moon from "./world/Moon";
@@ -35,7 +35,6 @@ export default class World {
 
 	constructor(core)
 	{
-		const SELF = this;
 		/**
 		 * Variables
 		 * @type {number}
@@ -236,7 +235,7 @@ export default class World {
 			side: THREE.DoubleSide,
 			depthWrite: false
 		});
-		let fireBallObject = new THREE.Points(fireGeometry, fireMaterial);
+//		let fireBallObject = new THREE.Points(fireGeometry, fireMaterial);
 
 		// Generate Trees
 		for (let i = 0; i < this.#treeCount; i++) {

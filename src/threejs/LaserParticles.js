@@ -74,7 +74,7 @@ export default class LaserParticles {
 			// Calculate speed
 			let speed = {'x':0,'y':0,'z':0};
 
-			for (const [key, value] of Object.entries(speed)) {
+			for (const [key,] of Object.entries(speed)) {
 				speed[key] = (targetPosition[key] - startPosition[key]) * this.speed + getRandomRange(-this.luckyRange,this.luckyRange);
 			}
 

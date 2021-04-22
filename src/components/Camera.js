@@ -1,6 +1,6 @@
 import React from "react";
 import {connect} from "react-redux";
-import classNames from "classnames";
+//import classNames from "classnames";
 import {setCamera} from "../redux/actions";
 import {getCamera} from "../redux/selectors";
 import IconVideo from "../icons/video.svg";
@@ -10,11 +10,6 @@ import IconHotAirBalloon from "../icons/hot-air-balloon.svg";
 import IconTree from "../icons/tree.svg";
 
 class Camera extends React.Component {
-	constructor(props)
-	{
-		super(props);
-	}
-
 	getIcon(type = 'default'){
 		let icons = {
 		    'ufo': IconUfo,
