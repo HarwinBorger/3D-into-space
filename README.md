@@ -9,6 +9,8 @@ Welcome into my mind space. This is a 3D art project of mine and it doesn't have
 ## Balloon
 ![Balloon](https://user-images.githubusercontent.com/3984675/117210045-78ca8e00-adf7-11eb-964e-46828fc36698.png)
 
+## Sun
+![Sun](https://user-images.githubusercontent.com/3984675/117210520-11610e00-adf8-11eb-9e34-4a2abdd5f0aa.png)
 
 ## Available Scripts
 
