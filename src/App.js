@@ -78,7 +78,7 @@ export default class App extends Component {
 						<Camera number={'world'} icon={'earth'}/>
 						<Camera number={'ufo'} icon={'ufo'}/>
 						<Camera number={'balloon'} icon={'balloon'}/>
-						<Camera number={'tree'} icon={'tree'}/>
+						{/*<Camera number={'tree'} icon={'tree'}/>*/}
 					</div>
 					<div className="button-group">
 						<AutoPilot/>

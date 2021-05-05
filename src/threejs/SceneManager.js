@@ -277,7 +277,7 @@ export default class sceneManager {
 			this.controls.balloon.update(0.05);
 		}
 
-		// If balloon camera is active
+		// If tree camera is active
 		if (getCamera(store.getState()).name === 'tree') {
 			this.controls.tree.update(0.05);
 		}
